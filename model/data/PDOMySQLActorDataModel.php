@@ -43,8 +43,8 @@ class PDOMySQLActorDataModel implements iActorDataModel
     public function selectActors()
     {
         // hard-coding for first ten rows
-        $start = 180;
-        $count = 203;
+        $start = 0;
+        $count = 10;
 
         //build the SQL STATEMENT
         //notice the placeholders for the start and count

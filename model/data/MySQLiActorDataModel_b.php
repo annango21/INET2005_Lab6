@@ -4,8 +4,7 @@
  * and open the template in the editor.
  */
 
-//require_once '/home/NSCCStudent/PhpstormProjects/Ngo-Diem-w0428985/Lab6/model/data/iActorDataModel.php';
-require_once '../model/data/iActorDataModel.php';
+require_once '../model/data/iActorDataModelp';
 class MySQLiActorDataModel implements iActorDataModel
 {
 

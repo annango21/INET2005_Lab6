@@ -8,8 +8,8 @@ require_once '../model/Actor.php';
 //other method...you will use your chosen data access
 //method in the constructor below
 
-//require_once '../model/data/MySQLiActorDataModel.php';
-require_once '../model/data/PDOMySQLActorDataModel.php';
+require_once '../model/data/MySQLiActorDataModel.php';
+//require_once '../model/data/PDOMySQLActorDataModel.php';
 //require_once '../model/data/PDOSQLiteActorDataModel.php';
 
 
@@ -24,9 +24,9 @@ class ActorModel
         //to our database - via PDO or via MYSQLi
         //toggle between your choice by commenting out one of the options
 
-        //$this->m_DataAccess = new MySQLiActorDataModel();
-        $this->m_DataAccess = new PDOMySQLActorDataModel();
-        //$this->m_DataAccess = new PDOSQLiteActorDataModel();
+        $this->m_DataAccess = new MySQLiActorDataModel();
+//        $this->m_DataAccess = new PDOMySQLActorDataModel();
+//        $this->m_DataAccess = new PDOSQLiteActorDataModel();
 
     }
     
